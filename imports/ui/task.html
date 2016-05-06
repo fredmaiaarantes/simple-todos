@@ -1,0 +1,37 @@
+<template name="task">
+
+    <li class="swipeout {{#if checked}}checked{{/if}} {{#if private}}private{{/if}}">
+
+        <div class="swipeout-content item-content">
+            <label class="label-checkbox item-inner">
+                <input type="checkbox" checked="{{checked}}" class="toggle-checked"/>
+                <div class="item-media">
+                    <i class="icon icon-form-checkbox"></i>
+                </div>
+                <div class="item-title">
+                    <div class="item-title-head">
+                        {{text}}
+                    </div>
+                    <div class="item-title-bottom">
+                        {{username}}
+                    </div>
+                </div>
+                <div class="item-after">
+                    {{#if isOwner}}
+                        <a class="toggle-private button button-raised">
+                            {{#if private}}
+                                Private
+                            {{else}}
+                                Public
+                            {{/if}}
+                        </a>
+                    {{/if}}
+                </div>
+            </label>
+        </div>
+
+        <div class="swipeout-actions-right">
+            <a href="#" class="delete bg-red">Delete</a>
+        </div>
+    </li>
+</template>

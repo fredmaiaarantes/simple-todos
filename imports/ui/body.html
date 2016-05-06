@@ -1,0 +1,94 @@
+<body class="theme-indigo">
+
+<!-- Status bar overlay for full screen mode (PhoneGap) -->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+<!-- Left panel with reveal effect-->
+<div class="panel panel-left panel-reveal">
+    <div class="content-block">
+        <p>Access Menu</p>
+        {{> loginButtons}}
+    </div>
+</div>
+
+<div class="views">
+    <div class="view view-main">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="center sliding">Todo List ({{incompleteCount}})</div>
+                <div class="right">
+                    <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="pages navbar-through toolbar-through">
+            <div data-page="index" class="page">
+                <div class="page-content">
+
+                    <header style="padding-top: 20px;">
+                        {{#if currentUser}}
+                        <form class="new-task">
+                            <div class="list-block">
+                                <ul>
+                                    <li>
+                                        <div class="item-content">
+                                            <div class="item-media"><i class="icon icon-form-calendar"></i></div>
+                                            <div class="item-inner">
+                                                <div class="item-input">
+                                                    <input type="text" name="text" placeholder="Type to add new tasks">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+
+                        <div class="list-block">
+                            <ul>
+                                <li>
+                                    <div class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title label">Hide Completed</div>
+                                            <div class="item-input">
+                                                <label class="label-switch">
+                                                    <label class="hide-completed">
+                                                        <input type="checkbox">
+                                                        <div class="checkbox"></div>
+                                                    </label>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        {{/if}}
+                    </header>
+
+                    <div class="content-block-title">Tasks</div>
+                    <div class="list-block">
+                        <ul>
+                            {{#each tasks}}
+                                {{> task}}
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="toolbar">
+            <div class="toolbar-inner">
+                <a href="#" target="_blank" class="link">Fred Maia</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+</body>
