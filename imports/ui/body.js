@@ -15,7 +15,7 @@ Template.body.helpers({
     const instance = Template.instance();
     const sort = { sort: { createdAt: -1 } };
     if(instance.state.get('hideCompleted')) {
-      return Tasks.find({}, { sort: { createdAt: -1 } });
+      return Tasks.find({ checked: { $ne: true }}, sort);
     }
     return Tasks.find({}, sort);
   },
