@@ -1,0 +1,335 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "50ffa352ffd8a57a8f5fcd951b5b1cdd4bd49ae8.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/50ffa352ffd8a57a8f5fcd951b5b1cdd4bd49ae8.js?meteor_js_resource=true",
+      "size": 843571,
+      "hash": "50ffa352ffd8a57a8f5fcd951b5b1cdd4bd49ae8"
+    },
+    {
+      "path": "fa967bf36ebe851b388d78df5ca89adc9f91d57c.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/fa967bf36ebe851b388d78df5ca89adc9f91d57c.css?meteor_css_resource=true",
+      "size": 7723,
+      "hash": "fa967bf36ebe851b388d78df5ca89adc9f91d57c"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.colors.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.colors.css",
+      "size": 87129,
+      "hash": "215c84f5ed87be89ddb377d826871002614be7a1"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.colors.min.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.colors.min.css",
+      "size": 81618,
+      "hash": "3a74440e7dee8e34851951bceefc6f7ebeeda587"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.css",
+      "size": 171276,
+      "hash": "0e76606e009fe3319e2ba6a63ceba75b3b7e3b21"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.min.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.min.css",
+      "size": 145559,
+      "hash": "33f883f7c0c7c7778a64ab1d59e909f0be34f2bc"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.rtl.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.rtl.css",
+      "size": 24748,
+      "hash": "1441a587af02f8f743d7f0800eaa7e74d019e1fd"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.rtl.min.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.ios.rtl.min.css",
+      "size": 22803,
+      "hash": "8f6a0d0a00b1c0a8942925b16acfed3b1f32374e"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.colors.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.colors.css",
+      "size": 352870,
+      "hash": "c747cb64011d68d9cf1ea27f970bcdc8c92e672a"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.colors.min.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.colors.min.css",
+      "size": 333827,
+      "hash": "efb630cee31fb485efb12baad2eebde057c7b19e"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.css",
+      "size": 186078,
+      "hash": "a6a584cec4463c71beb8f0d77686fb627870832b"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.min.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.min.css",
+      "size": 157699,
+      "hash": "837b8f4c6eb81225e8e7fff4f59e6085ae79e625"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.rtl.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.rtl.css",
+      "size": 39868,
+      "hash": "bb148fec87164fe6cdd13709d15194201530bc77"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.rtl.min.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/css/framework7.material.rtl.min.css",
+      "size": 38230,
+      "hash": "98614051b58ba635b1a28b6f0b277293a90da2af"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-f7-ios.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-f7-ios.png",
+      "size": 7289,
+      "hash": "0bf225d6455da0e91365bd551fc4ff6d7f971413"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-f7-material.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-f7-material.png",
+      "size": 8995,
+      "hash": "1446bca78695b5b45d348ac71ccbc5aaab8c9fb0"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-calendar-ios.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-calendar-ios.svg",
+      "size": 1094,
+      "hash": "6f04c3953747f44b4c106bfa5e20380c89298380"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-calendar-material.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-calendar-material.svg",
+      "size": 300,
+      "hash": "a4777af1e64932fe8fa4c84fdf542bded2165e4e"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-comment-ios.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-comment-ios.svg",
+      "size": 1480,
+      "hash": "dd56d41356d44ed422fc4075bc99b1f7c32945b7"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-comment-material.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-comment-material.svg",
+      "size": 253,
+      "hash": "9a8ccbcf564a6dacabf19c3c7355cb0cd73ce958"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-email-ios.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-email-ios.svg",
+      "size": 789,
+      "hash": "3114766487a80060aae49be03aa23215a4aebf06"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-email-material.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-email-material.svg",
+      "size": 273,
+      "hash": "d9aa89e25d25a8a7c4026068d352917ca5321a64"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-gender-ios.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-gender-ios.svg",
+      "size": 871,
+      "hash": "c460472bd2d760d6756179e77da3cd5a38b759bb"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-gender-material.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-gender-material.svg",
+      "size": 737,
+      "hash": "ceb54d5e7a62cf7bd43f1b628e03da1c0b728fc4"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-name-ios.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-name-ios.svg",
+      "size": 1736,
+      "hash": "0eb78925b25529c469cd95cc51539165cc5886a8"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-name-material.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-name-material.svg",
+      "size": 410,
+      "hash": "59ffe2ac7ee4351c5272ea903642300b3aac6975"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-password-ios.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-password-ios.svg",
+      "size": 1453,
+      "hash": "16309c0003ab3fa767bac50c3e63ac1a6774aa2e"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-password-material.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-password-material.svg",
+      "size": 410,
+      "hash": "f1618d2f38462cfbd5a3632fb83c9456bc9ec5b2"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-settings-ios.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-settings-ios.svg",
+      "size": 1593,
+      "hash": "4b7a66e2c643128eeb0b9039bb89255bba6e5805"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-settings-material.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-settings-material.svg",
+      "size": 468,
+      "hash": "81d425974cb2390f3bebe2e14853b6dd4c973a71"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-tel-ios.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-tel-ios.svg",
+      "size": 1958,
+      "hash": "444354d122d0af46acf86eecdb7b324ce4d920be"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-tel-material.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-tel-material.svg",
+      "size": 404,
+      "hash": "0bc6bb53ce15ab392a6078e915060bfe51138344"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-toggle-ios.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-toggle-ios.svg",
+      "size": 522,
+      "hash": "82eba94c3107e16d0e277ffa9e7e0f08d4d1185a"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-toggle-material.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-toggle-material.svg",
+      "size": 414,
+      "hash": "89c939071aa07ba15af52e2115edda3efb5b4249"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-url-ios.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-url-ios.svg",
+      "size": 5562,
+      "hash": "3e47adaf441f8fa3dcaba2a6d51329959ef6ac1b"
+    },
+    {
+      "path": "packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-url-material.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nobutakaoshiro_framework7-ios-material/framework7/dist/img/i-form-url-material.svg",
+      "size": 973,
+      "hash": "ac06ded0fe1a237bb754f798bd6e7eaf02216f83"
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "2de687ebb7a22de2f017e0d868fb1e1674a3732f"
+    }
+  ]
+}

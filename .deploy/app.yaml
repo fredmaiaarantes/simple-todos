@@ -1,0 +1,7 @@
+dsafe: true
+automatic_scaling:
+  max_num_instances: 1
+env_variables:
+  MONGO_URL: 'mongodb://[user]:[pass]@[host]:[port]/[db]'
+  ROOT_URL: 'https://...'
+  METEOR_SETTINGS: '{}'
