@@ -338,7 +338,7 @@
       <workItem from="1462493982503" duration="4061000" />
       <workItem from="1470759460869" duration="1609000" />
       <workItem from="1470789447290" duration="1130000" />
-      <workItem from="1475404873689" duration="3569000" />
+      <workItem from="1475404873689" duration="5073000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizando meteor para 1.4">
       <created>1470760236060</created>
@@ -386,7 +386,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22947000" />
+    <option name="totallyTimeSpent" value="24451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
