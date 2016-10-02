@@ -7,7 +7,6 @@
 # User-specific stuff:
 .idea/dictionaries
 .idea/*.xml
-.idea/*.iml
 
 # Sensitive or high-churn files:
 .idea/dataSources.ids
