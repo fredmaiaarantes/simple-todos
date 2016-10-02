@@ -1,5 +1,5 @@
 {
-  "name": "simple-todos",
+  "name": "ftasks",
   "private": true,
   "scripts": {
     "start": "meteor run"
