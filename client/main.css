@@ -1,5 +1,10 @@
 /*!* CSS declarations go here *!*/
 
+.views {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
 .item-title .item-title-head {
     font-size: 20px;
     position: relative;
