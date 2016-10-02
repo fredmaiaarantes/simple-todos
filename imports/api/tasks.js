@@ -1,8 +1,9 @@
 import { Meteor } from 'meteor/meteor';
 import { Mongo } from 'meteor/mongo';
 import { check } from 'meteor/check';
+import { Ground } from 'meteor/ground:db';
 
-export const Tasks = new Mongo.Collection('tasks');
+export const Tasks = new Ground.Collection('tasks');
 
 if(Meteor.isServer) {
   Meteor.publish("tasks", function tasksPublication(){
